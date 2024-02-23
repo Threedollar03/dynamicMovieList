@@ -160,7 +160,7 @@ function createCard(movie) {
   movieGenre.innerText = movie.genre;
   movieRating.innerText = movie.rated;
   movieSynopsis.innerText = movie.synopsis;
-  buttonWatchlist.innerText = "Adcionar a Watchlist";
+  buttonWatchlist.innerText = "Adicionar a Watchlist";
   buttonAlugar.innerText = "Alugar";
 
   movieActions.append(buttonWatchlist, buttonAlugar);

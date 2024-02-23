@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 body{
-    background-color: rgb(131, 131, 131);
+    background-color: rgba(252, 230, 194, 0.324);
     font-family: "Inter", sans-serif;
+    font-size: 16px;
 }
 .main__movies{
-    width: 80%;
+    max-width: 1300px;
+    width: 90%;
+    min-width: 800px;
     margin: 0 auto;
 }
 .main__title {
     margin: 10px;
     text-align: center;
-    font-size: clamp(10px, 2rem, 42px);
+    font-size: clamp(2rem, 50%, 3rem);
     font-weight: 700;
 }
 .second__title{
     margin: 10px;
     text-align: center;
-    font-size: clamp(10px, 2rem, 42px);
+    font-size: 2rem;
     font-weight: 400;
 }
 
 .movie__title{
-    font-size: 2rem;
+    font-size: clamp(2rem, 5vh, 2.5rem);
     font-weight: 600;
     margin-block: 32px;
 }
@@ -36,7 +39,7 @@ body{
 .movie{
    display: flex; 
    gap: 16px;
-   background-color: aliceblue;
+   background-color: rgb(238, 238, 237);
    border-radius: 10px;
    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
    color: #333;
@@ -85,7 +88,7 @@ body{
     line-height: 1.4rem;
 }
 .movie__title{
-    font-size: 1.6rem;
+    font-size: min(3vw,50px);;
     font-weight: 600;
     
 }
@@ -98,7 +101,7 @@ body{
     display: inline-flex;
 }
 .movie__synopsis {
-    font-size: 1.2rem;
+    font-size: clamp(16px,50%, 24px);
     padding-top: 10px;
 }
 
@@ -110,18 +113,20 @@ justify-content: space-between;
 }
 
 .movie__actions{
+    
     display: flex;
     gap: 10px;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .movie__action__button{
-    font-size: 1.1rem;
+    font-size: min(3vw,50px);
     border: 2px solid black;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     box-shadow: 4px 4px  gray;
     transition: 300ms;
+    
 }
 
 .movie__action__button:hover{

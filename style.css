@@ -25,9 +25,10 @@ body{
 }
 
 .movie__title{
-    font-size: clamp(2rem, 5vh, 2.5rem);
+    font-size: max(1.7em, 1em + 3vw, 2em);
     font-weight: 600;
-    margin-block: 32px;
+    margin: 16px;
+    
 }
 .movies__list{
     display: flex;
@@ -84,7 +85,7 @@ body{
     color: rgb(255, 179, 0);
 }
 
-.movie__title, .movie__genre , .movie__synopsis {
+.movie__genre , .movie__synopsis {
     line-height: 1.4rem;
 }
 .movie__title{

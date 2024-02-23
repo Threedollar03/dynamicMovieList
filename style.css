@@ -58,18 +58,19 @@ body{
     border-radius: 3px;
     padding: 6px;
     margin-left: 5px;
+    color: white;
 }
 .movie__rating__r{
     background-color: red;
-    color: white;
+    
 }
 .movie__rating__pg13{
     background-color: rgb(181, 29, 192);
-    color: white;
+    
 }
 .movie__rating__g{
     background-color: rgb(21, 214, 73);
-    color: white;
+   
 }
 .movie__starRating{
     display: flex;

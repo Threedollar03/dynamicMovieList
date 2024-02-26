@@ -6,10 +6,12 @@ body{
     font-size: 16px;
 }
 .main__movies{
+    display: flex;
     max-width: 1300px;
     width: 90%;
     min-width: 800px;
     margin: 0 auto;
+    gap: 1rem;
 }
 .main__title {
     margin: 10px;
@@ -106,7 +108,6 @@ body{
 }
 
 .movie__content{
-
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -133,3 +134,27 @@ justify-content: space-between;
     background-color: rgb(5, 55, 16);
     color: white;
 }   
+
+.watchlist__title{
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.watchlist__list{
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    gap: 1em;
+    
+    
+}
+
+.movie__title_watchList{
+    font-size: clamp(1em, 1em + 1vw, 1.5em);
+    font-weight: 600;
+    margin: 16px;
+}
+
+.movie__watchList{
+width: max(500px 30%);
+}
